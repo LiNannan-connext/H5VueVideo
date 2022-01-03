@@ -1,0 +1,12 @@
+@import "./reset.scss";
+
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  // 解决IScroll拖拽卡顿问题
+  touch-action: none;
+}
+img{
+  vertical-align: bottom;
+}
